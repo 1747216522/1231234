@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们</title>
+    <style type="text/css">
+        /* 整体页面样式重置，去除默认边距等 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('image/2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px 0;
+            width: 100%;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            border: 1px solid #ffffff;
+            padding: 12px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* 主要内容容器样式 */
+        #contact-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 段落样式优化 */
+        p {
+            font-size: 1.4em;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        /* 强调联系方式文字样式 */
+        strong {
+            font-weight: bold;
+            margin-right: 10px;
+            color: #f0f0f0;
+            font-size: 1.2em;
+        }
+
+        /* 邮箱链接样式优化 */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            border-bottom: 1px dotted #007BFF;
+        }
+
+        a:hover {
+            color: #0056b3;
+            border-bottom-style: solid;
+        }
+
+        /* 社交媒体图标样式 */
+       .social-icons {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+       .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            font-size: 2em;
+            transition: color 0.3s ease;
+        }
+
+       .social-icons a:hover {
+            color: #007BFF;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px 0;
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+    </style>
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+
+    <div id="contact-container">
+        <p><em>如果您有任何疑问、建议或者需要帮助，请通过以下方式联系我们，我们将竭诚为您服务。</em></p>
+
+        <p><strong><em>电话：</em></strong><em>1234567890</em></p>
+        <p><em><strong>邮箱：</strong><a href="mailto:info@example.com">info@example.com</a>（欢迎发送邮件咨询）</em></p>
+        <p><em><strong>地址：</strong>
+          XX 市 XX 区 XX 街道 XX 号<br>
+          XX 大厦 XX 层
+      </em></p>
+
+        <!-- 社交媒体联系方式示例，可按需修改或删除 -->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+		<nav>
+         	<h2><a href="../index.html">返回首页</a></h2>
+        </nav>
+<footer>
+        &copy; 2024 诺贝尔. All rights reserved.
+    
+</footer>
+</body>
+
+</html>
